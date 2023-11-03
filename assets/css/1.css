@@ -1,0 +1,171 @@
+/* style.css */
+
+/* Body dan font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+/* style.css */
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Judul halaman */
+h1 {
+    margin-top: 0;
+}
+
+.btnout svg {
+    margin-bottom: 30px;
+}
+
+/* Tombol simpan */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Gaya tautan */
+.button-link {
+    text-decoration: none;
+    color: #4CAF50;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.button-link i {
+    margin-right: 5px;
+}
+
+.button-link:hover {
+    text-decoration: underline;
+}
+
+/* Gaya tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: palevioletred;
+    color: white;
+}
+
+/* Gaya formulir */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Gaya input */
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Gaya tabel dalam formulir */
+form table {
+    margin-bottom: 0;
+    border: none;
+    width: 100%;
+}
+
+form th, form td {
+    border: none;
+    padding: 5px;
+    text-align: left;
+}
+
+/* Gaya tabel dalam formulir */
+form th {
+    background-color: #f5f5f5;
+}
+
+/* Gaya pesan error */
+.error-message {
+    color: #ff4136;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+/* Gaya tombol edit */
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+/* CSS untuk combo box */
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .custom-combobox select {
+    padding: 8px 38px 8px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Icon panah kecil */
+  .custom-combobox .arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  /* Contoh icon panah */
+  .custom-combobox .arrow::after {
+    content: '\25BC'; /* Karakter panah unicode */
+    font-size: 16px;
+    color: #555;
+  }
+  
